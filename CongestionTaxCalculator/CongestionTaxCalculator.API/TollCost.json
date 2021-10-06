@@ -1,0 +1,62 @@
+{
+  "tollRules": [
+    {
+      "timeFrom": "06:00",
+      "timeTo": "06:29",
+      "cost": 8
+    },
+    {
+      "timeFrom": "06:30",
+      "timeTo": "06:59",
+      "cost": 13
+    },
+    {
+      "timeFrom": "07:00",
+      "timeTo": "07:59",
+      "cost": 18
+    },
+    {
+      "timeFrom": "08:00",
+      "timeTo": "08:29",
+      "cost": 13
+    },
+    {
+      "timeFrom": "08:30",
+      "timeTo": "14:59",
+      "cost": 8
+    },
+    {
+      "timeFrom": "15:00",
+      "timeTo": "15:29",
+      "cost": 13
+    },
+    {
+      "timeFrom": "15:30",
+      "timeTo": "16:59",
+      "cost": 18
+    },
+    {
+      "timeFrom": "17:00",
+      "timeTo": "17:59",
+      "cost": 13
+    },
+    {
+      "timeFrom": "18:00",
+      "timeTo": "18:29",
+      "cost": 8
+    },
+    {
+      "timeFrom": "18:30",
+      "timeTo": "05:59",
+      "cost": 0
+    }
+  ],
+  "tollFreeVehicles": [
+    "Motorcycle",
+    "Tractor",
+    "Emergency",
+    "Diplomat",
+    "Foreign",
+    "Military"
+  ]
+}
