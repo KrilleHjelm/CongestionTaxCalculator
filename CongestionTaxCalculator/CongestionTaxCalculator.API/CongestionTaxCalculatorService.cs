@@ -18,7 +18,7 @@ namespace CongestionTaxCalculator.API
         {
             var cityTollRules = _congestionTaxCalculatorRepository.GetTollRules(city);
 
-            if (IsToolFree(cityTollRules.TollFreeVehicles, vehicle, date) || )
+            if (IsToolFree(cityTollRules.TollFreeVehicles, vehicle, date, serialNumber))
             {
                 return 0;
             }
