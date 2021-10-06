@@ -1,6 +1,4 @@
-﻿using CongestionTaxCalculator.API;
-using CongestionTaxCalculator.API.Utilities;
-using Moq.AutoMock;
+﻿using CongestionTaxCalculator.API.Utilities;
 using System;
 using Xunit;
 
